@@ -1,0 +1,29 @@
+.grooms-friends {
+    text-align: center;
+    margin-top: 11rem;
+    &__title {
+        font-weight: 200;
+        font-size: 4.4rem;
+        line-height: 1.333;
+        font-family: $title-font;
+        color: $secondry-color;
+    }
+    &__paragraph {
+        font-weight: 300;
+        font-size: 1.8rem;
+        line-height: 1.89;
+        font-family: $paragraph-font;
+        text-align: center;
+        color: $gray-color;
+    }
+    &--card {
+        border: transparent;
+        margin-top: 3.5rem;
+    }
+    &--card-title {
+        font-size: 4.5rem;
+    }
+    &--card-text {
+        margin-top: -2rem;
+    }
+}

@@ -1,0 +1,29 @@
+.reciption-details {
+    margin-top: 13.9rem;
+    &--messagee-body {
+        text-align: left;
+        // margin-left: 3rem;
+    }
+    &--church-style{
+        margin-left: -10rem;
+    }
+    &--content{
+        margin-top: 1rem;
+    }
+}
+
+// @media(max-width:375px){
+//     .reciption-details--media-container{
+//         width:60rem;
+//     }
+// .message__wrriten-message--media{
+//     text-align: left;
+//     margin-left: 1rem;
+// }
+// .reciption-details--church-section{
+//     width: 59rem;
+// }
+// .reciption-details--church-media{
+//     width: 100%;
+// }
+// }

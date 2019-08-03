@@ -1,0 +1,69 @@
+.blog {
+    text-align: center;
+    margin-top: 9rem;
+    &--title {
+        font-size: 7.2rem;
+        font-weight: 200;
+        line-height: 1.333;
+        font-family: $title-font;
+        color: $secondry-color;
+        margin-top: 6.5rem;
+    }
+    &--paragraph {
+        font-weight: 300;
+        font-size: 1.8rem;
+        line-height: 1.89;
+        font-family: $paragraph-font;
+        color: $gray-color;
+    }
+    &--card {
+        margin-bottom: 6.5rem;
+    }
+    &--card-title {
+        font-family: $title-font;
+        color: #c34d5f;
+        font-size: 1.875rem;
+        display: block;
+        margin-top: 6rem;
+    }
+    &--card-title-date {
+        color: $gray-color;
+        font-size: 1.875rem;
+    }
+    &--card-text {
+        margin-top: 2.1rem;
+        font-weight: 300;
+        font-size: 1.8rem;
+        line-height: 1.89;
+        font-family: $paragraph-font;
+        color: $gray-color;
+    }
+    &--card-text-link {
+        color: #c34d5f;
+        font-size: 1.75rem;
+        font-family: $font;
+        text-decoration: underline;
+    }
+}
+
+.card-img-overlay {
+    background-color: $white;
+    opacity: 0.9;
+    margin: 4rem;
+}
+
+@media (width:768px) {
+    .blog--card-title {
+        margin-top: 18rem;
+        font-size: 3.875rem;
+    }
+    .blog--card-title-date {
+        font-size: 2.875rem;
+    }
+    .blog--card-text {
+        font-size: 2.8rem;
+    }
+    .blog--card-text-link {
+        font-size: 2.75rem;
+    }
+}

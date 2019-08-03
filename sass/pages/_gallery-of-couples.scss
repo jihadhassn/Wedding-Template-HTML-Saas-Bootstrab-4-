@@ -1,0 +1,80 @@
+.gallery-of-couples {
+    margin-top: 7rem;
+    // text-align: center;
+    &__header {
+        font-weight: 200;
+        line-height: 1.333;
+        font-family: $title-font;
+        font-size: 7.2rem;
+        color: $secondry-color;
+        text-align: center;
+    }
+    &__slogan {
+        text-align: center !important;
+        margin-top: 2.2rem;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 1.89;
+        font-family: $paragraph-font;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $gray-color;
+    }
+    &--part-one {
+        animation: images-move 1.5s;
+        text-align: center;
+    }
+    &--part-two {
+        // margin-top: 0.2rem;
+        animation: images-move 1.5s;
+        text-align: center;
+    }
+    &--imagehover {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        max-width: 100%;
+        height: auto;
+        &:hover .gallery-of-couples--overlay {
+            opacity: 0.7;
+        }
+    }
+    &--coll-12{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    &--image-style {
+        width: 100%;
+    }
+    &--overlay {
+        position: absolute;
+        background: $icon-color;
+        text-align: center;
+        padding: 45px 0 66px 0;
+        opacity: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transition: opacity 0.25s ease;
+        
+    }
+    &--overlay-plus {
+        color: rgba(255, 255, 255, 0.85);
+        font-size: 3.5rem;
+        margin-top: 11.2rem;
+        font-weight: 600;
+    }
+
+}
+
+
+// @media(max-width:375px){
+// .gallery-of-couples{
+//         margin-left: 11rem;
+//     }
+
+//     .gallery-of-couples--part-one, .gallery-of-couples--part-two{
+//             width:60rem;
+//         }
+// }

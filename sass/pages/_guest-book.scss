@@ -1,0 +1,31 @@
+.guest-book {
+    background-image: url(https://ld-wp.template-help.com/wordpress_63832/wp-content/uploads/2016/11/img23.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    min-height: 60rem;
+    margin-top: 13rem;
+    &__title {
+        margin-top: 7rem;
+        font-weight: 200;
+        font-size: 4.4rem;
+        line-height: 1.333;
+        font-family: $title-font;
+        color: $secondry-color;
+    }
+    &__slider-content{
+        color: $secondry-color;
+        font-family: $paragraph-font;
+        font-size: 1.8rem;
+        font-weight: 300;
+        line-height: 1.89;
+        margin-top: 5rem;
+        
+        // width: 70rem;
+        // margin-left: 32rem;
+    }
+    &--signature{
+        // margin-left: 6rem;
+    }
+}

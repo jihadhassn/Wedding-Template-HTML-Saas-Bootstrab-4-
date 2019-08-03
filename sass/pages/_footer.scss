@@ -1,0 +1,15 @@
+.footer {
+    text-align: center;
+    background-color: #3B3B3B;
+
+    &--img-footer{
+        padding-top: 6rem;
+    }
+    &--rights {
+        color: $white-color;
+        font-size: 1.8rem;
+        font-family: $font;
+        margin-top: 3rem;
+        padding-bottom: 6rem;
+    }
+}        

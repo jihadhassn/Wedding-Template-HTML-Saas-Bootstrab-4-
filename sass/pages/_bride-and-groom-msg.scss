@@ -1,0 +1,66 @@
+.message {
+    margin-top: 5.9rem;   
+     &__image {
+        animation: move 1.5s; 
+        text-align: center;
+       
+    }
+
+    &__wrriten-message {
+        text-align: center;
+        &--bride-name {
+            margin-top: 7rem;
+            font-size: 6rem;
+            font-family: $title-font;
+            color: $secondry-color;
+        }
+        &--wrriten-by {
+            font-weight: 300;
+            font-size: 2.8rem;
+            line-height: 2.43;
+            font-family: $font;
+            letter-spacing: 0.1em;
+            text-align: inherit;
+            color: #58626c;
+        }
+        &--message-body {
+            font-weight: 300;
+            font-size: 1.8rem;
+            line-height: 1.89;
+            font-family: $paragraph-font;
+            letter-spacing: 0em;
+            // text-align: left;
+            color: $gray-color;
+            text-align: center;
+        }
+    }
+    &__social-contacts {
+        // text-align: center;
+        margin-right: 1.8rem;
+        margin-top: 1.8rem; 
+        margin-bottom: 1.8rem;
+        &--icon {
+            border: 1px solid $icon-color;
+            border-radius: 50px;
+            padding: 1.2rem;
+            background-color: $icon-color;
+            text-decoration: none;
+            margin: 0.6rem;
+            color: $white-color;
+            font-size: 1.6rem;
+        &:hover{ 
+            background-color: $secondry-color;
+            border: 1px solid $secondry-color;
+
+         }
+        }
+    }
+}
+@media(max-width:768px){
+    // .message{
+    //     width:95.53rem;
+    // }
+    // .message--message-media{
+    //     margin-left: 11rem;
+    // }
+}

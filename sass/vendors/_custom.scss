@@ -1,0 +1,62 @@
+
+.card{
+    // width: 35rem;
+     text-align: center;
+     border: 0px !important;
+}
+.card-title {
+    font-family: $title-font;
+    margin-bottom: 2.3rem;
+    font-weight: 200;
+    font-size: 4rem;
+    line-height: 1.35;
+    color: $secondry-color;
+}
+
+.card-text {
+    margin-bottom: 1.4rem;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.89;
+    font-family: $paragraph-font;
+    color: $gray-color;
+}
+  
+.dropdown-menu {
+    min-width: 15rem !important;    
+    border: 0 !important;
+}
+
+.btn {
+    color: $gray-color !important;
+    display: block !important;
+    text-align: left !important;
+    &:hover {
+        color: $white-color !important;
+    }
+}
+
+li.dropdown {
+    &:hover {
+        .headerr__nav-bar--dropdownn {
+            display: block !important; // transition: all 0.2s linear;
+            flex-direction: column !important;
+        }
+    }
+}
+
+.nav-link {
+    &:hover {
+        color: #c34d5f !important;
+    }
+}
+
+.dropright {
+    &:hover  {
+        .headerr__sub-dropdown {
+            display: block !important;
+        }
+    }
+}
+@import"../../node_modules/bootstrap/scss/bootstrap.scss";
